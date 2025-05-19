@@ -1,5 +1,4 @@
 class StringBuilder {
-
     constructor(value) {
         this._value = value;
     }
@@ -9,7 +8,7 @@ class StringBuilder {
     }
 
     append(str) {
-        return this._value += str;
+        return (this._value += str);
     }
 
     prepend(str) {
@@ -21,13 +20,13 @@ class StringBuilder {
     }
 }
 
-const builder = new StringBuilder('.');
+const builder = new StringBuilder(".");
 
-builder.append('^');
-console.log(builder.value); // '.^'
+builder.append("^");
+console.log(builder.value);
 
-builder.prepend('^');
-console.log(builder.value); // '^.^'
+builder.prepend("^");
+console.log(builder.value);
 
-builder.pad('=');
-console.log(builder.value); // '=^.^='
+builder.pad("=");
+console.log(builder.value);

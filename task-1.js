@@ -1,5 +1,4 @@
 class Account {
-
     constructor({ login, email }) {
         this.login = login;
         this.email = email;
@@ -11,16 +10,15 @@ class Account {
 }
 
 const mango = new Account({
-    login: 'Mangozedog',
-    email: 'mango@dog.woof',
+    login: "Mangozedog",
+    email: "mango@dog.woof",
 });
 
 mango.getInfo();
 
-
 const poly = new Account({
-    login: 'Poly',
-    email: 'poly@mail.com',
+    login: "Poly",
+    email: "poly@mail.com",
 });
 
 poly.getInfo();

@@ -1,5 +1,4 @@
 class Storage {
-
     constructor(items) {
         this.items = items;
     }
@@ -21,17 +20,17 @@ class Storage {
 }
 
 const storage = new Storage([
-    'Нанітоіди',
-    'Пролонгер',
-    'Залізні жупи',
-    'Антигравітатор',
+    "Нанітоіди",
+    "Пролонгер",
+    "Залізні жупи",
+    "Антигравітатор",
 ]);
 
 const items = storage.getItems();
 console.table(items);
 
-storage.addItem('Дроїд');
+storage.addItem("Дроїд");
 console.table(storage.items);
 
-storage.removeItem('Пролонгер');
+storage.removeItem("Пролонгер");
 console.table(storage.items);

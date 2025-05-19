@@ -1,5 +1,4 @@
 class User {
-
     constructor({ name, age, followers }) {
         this.name = name;
         this.age = age;
@@ -7,12 +6,12 @@ class User {
     }
 
     getInfo() {
-        return `User ${this.name} is ${this.age} years old and has ${this.followers} followers`
+        return `User ${this.name} is ${this.age} years old and has ${this.followers} followers`;
     }
 }
 
 const mango = new User({
-    name: 'Mango',
+    name: "Mango",
     age: 2,
     followers: 20,
 });
@@ -20,7 +19,7 @@ const mango = new User({
 console.log(mango.getInfo());
 
 const poly = new User({
-    name: 'Poly',
+    name: "Poly",
     age: 3,
     followers: 17,
 });
