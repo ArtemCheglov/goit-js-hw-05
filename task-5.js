@@ -1,7 +1,7 @@
 class Car {
 
     getSpecs(car) {
-        console.log(`maxSpeed: ${car.maxSpeed}, speed: ${car.speed}, isOn: ${car.isOn}, distance: ${car.distance}, price: ${car.price}`);
+        console.log(`maxSpeed: ${this.maxSpeed}, speed: ${this.speed}, isOn: ${this.isOn}, distance: ${this.distance}, price: ${this.price}`);
     }
 
     constructor({ speed, price, maxSpeed, isOn, distance }) {
