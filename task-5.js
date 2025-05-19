@@ -1,6 +1,6 @@
 class Car {
 
-    getSpecs(car) {
+    getSpecs() {
         console.log(`maxSpeed: ${this.maxSpeed}, speed: ${this.speed}, isOn: ${this.isOn}, distance: ${this.distance}, price: ${this.price}`);
     }
 
